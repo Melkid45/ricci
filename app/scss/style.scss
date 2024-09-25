@@ -1,0 +1,27 @@
+@import './reset';
+html{
+    scroll-behavior: smooth;
+}
+body{
+    max-width: 1440px;
+    background-color: #fff;
+    font-family: "Lato", sans-serif;
+    margin: 0 auto;
+}
+.element-animation{
+    opacity: 0;
+    transform: translateY(-20px);
+}
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+.rb{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
