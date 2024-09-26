@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    max-width: 1440px;
+    max-width: 1200px;
     background-color: #fff;
     font-family: "Lato", sans-serif;
     margin: 0 auto;
@@ -22,6 +22,12 @@ body{
 }
 .container{
     width: 100%;
-    max-width: 1320px;
+    max-width: 1180px;
     margin: 0 auto;
+}
+.mob{
+    display: none !important;
+}
+.desk{
+    display: flex !important;
 }

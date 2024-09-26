@@ -53,7 +53,7 @@
         justify-content: space-between;
         width: 100%;
         &-item{
-            width: 275px;
+            width: 238px;
             height: 200px;
             background: linear-gradient(320.53deg, rgba(238, 238, 248, 0.55) 6.36%, rgba(255, 255, 255, 0.55) 98.39%);
             backdrop-filter: blur(65px);
@@ -97,7 +97,7 @@
 .honest{
     width: 100%;
     margin-top: 50px;
-    padding: 0 15px;
+    padding: 0 0px;
     &__body{
         display: flex;
         justify-content: space-between;
@@ -181,7 +181,7 @@
 }
 .market{
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0px;
     margin-top: 50px;
     &__body{
         display: flex;
@@ -219,7 +219,7 @@
             flex-wrap: wrap;
             gap: 10px;
             &-item{
-                width: 342px;
+                width: 287px;
                 height: 250px;
                 background: #4D4E6E;
                 border-radius: 3px;
@@ -253,7 +253,7 @@
 }
 .rec{
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0px;
     margin-top: 100px;
     &__body{
         display: flex;
@@ -291,7 +291,7 @@
             flex-wrap: wrap;
             gap: 10px;
             &-item{
-                width: 342px;
+                width: 287px;
                 height: 250px;
                 background: #E3E8EC;
                 border-radius: 3px;
@@ -335,7 +335,7 @@
                 
             }
             &-item:nth-child(7){
-                width: 696px;
+                width: 583px;
             }
         }
     }
@@ -345,7 +345,7 @@
 }
 .price{
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0px;
     margin-top: 100px;
     &__body{
         display: flex;
@@ -383,7 +383,7 @@
             flex-wrap: wrap;
             gap: 10px;
             &-item{
-                width: 345px;
+                width: 287px;
                 height: 250px;
                 background: #BBC7D3;
                 border-radius: 3px;
@@ -427,7 +427,7 @@
                 
             }
             &-item:nth-child(7){
-                width: 700px;
+                width: 583px;
             }
         }
     }
@@ -435,13 +435,13 @@
 .write{
     width: 100%;
     margin-top: 50px;
-    padding: 0 15px;
+    padding: 0 0px;
     &__body{
         display: flex;
         justify-content: space-between;
         width: 100%;
         &-item{
-            width: 674px;
+            width: 562px;
             display: flex;
             flex-direction: column;
             gap: 40px;
@@ -462,9 +462,9 @@
             }
             &-bot{
                 display: flex;
-                gap: 20px;
+                gap: 18.8px;
                 &-block{
-                    width: 325px;
+                    width: 272px;
                     height: 400px;
                     background: #F1F1F1;
                     display: flex;
@@ -566,7 +566,7 @@
 }
 .feedback{
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0px;
     margin-top: 40px;
     background: #EEEEF8;
     &__body{
@@ -593,10 +593,10 @@
                 text-transform: uppercase;
             }
             &-form{
-                width: 400px;
+                width: 373px;
                 display: flex;
                 flex-wrap: wrap;
-                gap: 8px;
+                gap: 3px;
                 input{
                     background: #FFFFFF;
                     border: 1px solid #2C2C2C;
@@ -609,10 +609,10 @@
                     height: 60px;
                 }
                 input:nth-child(1){
-                    width: 196px;
+                    width: 185px;
                 }
                 input:nth-child(2){
-                    width: 196px;
+                    width: 185px;
                 }
                 input:nth-child(3){
                     width: 100%;
@@ -627,7 +627,7 @@
                     text-align: left;
                     color: #929292;
                     height: 60px;
-                    width: 196px;
+                    width: 185px;
                     resize: none;
                     padding-top: 20px;
                 }
@@ -636,7 +636,7 @@
                     border: 1px dashed #2C2C2C;
                     padding-left: 20px;
                     height: 60px;
-                    width: 196px;
+                    width: 185px;
                     resize: none;
                     position: relative;
                     display: flex;
